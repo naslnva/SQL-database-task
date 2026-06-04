@@ -27,13 +27,16 @@ This project is a simple SQL practice project created to work with relational da
 - product_id
 - quantity
 
-## Project Files
+## Project Structure
 
-`schema.sql` contains the database structure.
-
-`data.sql` contains the sample data.
-
-`queries.sql` contains all required SQL queries.
+```text
+├── schema.sql
+├── data.sql
+├── simple_queries/
+├── conditional_queries/
+├── aggregate_functions/
+└── join_queries/
+```
 
 ## Database Structure
 
@@ -57,4 +60,9 @@ Each customer can have multiple orders, and each order can contain multiple prod
 
 ## Queries
 
-The project includes simple queries, conditional queries, aggregate functions and join queries.
+The project includes:
+
+- Simple Queries
+- Conditional Queries
+- Aggregate Functions
+- Join Queries
