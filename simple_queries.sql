@@ -1,6 +1,6 @@
 SELECT * FROM products;
 
-SELECT name, price FROM products;
+SELECT product_name, price FROM products;
 
 SELECT * FROM customers;
 
