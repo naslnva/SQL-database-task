@@ -1,31 +1,27 @@
 # Sales Database SQL Task
 
-This project was created for practicing SQL and relational databases.
+This project is a simple SQL practice project created to work with relational databases, tables and queries.
 
 ## Database Tables
 
-### products
-Stores product information:
+### Products
 - id
-- name
+- product_name
 - category
 - price
 
-### customers
-Stores customer information:
+### Customers
 - id
 - full_name
 - email
 - city
 
-### orders
-Stores customer orders:
+### Orders
 - id
 - customer_id
 - order_date
 
-### order_items
-Stores products included in each order:
+### Order Items
 - id
 - order_id
 - product_id
@@ -33,22 +29,11 @@ Stores products included in each order:
 
 ## Project Files
 
-- schema.sql
-- data.sql
-- queries.sql
+`schema.sql` contains the database structure.
 
-## Topics Used
+`data.sql` contains the sample data.
 
-- SELECT
-- WHERE
-- LIKE
-- BETWEEN
-- COUNT
-- AVG
-- SUM
-- GROUP BY
-- INNER JOIN
-- LEFT JOIN
+`queries.sql` contains all required SQL queries.
 
 ## Database Structure
 
@@ -68,11 +53,8 @@ Order_Items
 Products
 ```
 
+Each customer can have multiple orders, and each order can contain multiple products through the `order_items` table.
+
 ## Queries
 
-The project includes:
-
-- Simple Queries
-- Conditional Queries
-- Aggregate Functions
-- Join Queries
+The project includes simple queries, conditional queries, aggregate functions and join queries.
