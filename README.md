@@ -55,20 +55,17 @@ Stores products included in each order:
 ```text
 Customers
     │
-    └── customer_id
-            │
-            ▼
+    │ customer_id
+    ▼
 Orders
     │
-    └── order_id
-            │
-            ▼
+    │ order_id
+    ▼
 Order_Items
-            │
-            └── product_id
-                    │
-                    ▼
-                Products
+    │
+    │ product_id
+    ▼
+Products
 ```
 
 ## Queries
