@@ -52,13 +52,24 @@ Stores products included in each order:
 
 ## Database Structure
 
-- customers
-- ↓
-- orders
-- ↓
-- order_items
-- ↓
-- products
+```text
+Customers
+    │
+    └── customer_id
+            │
+            ▼
+Orders
+    │
+    └── order_id
+            │
+            ▼
+Order_Items
+            │
+            └── product_id
+                    │
+                    ▼
+                Products
+```
 
 ## Queries
 
