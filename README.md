@@ -31,7 +31,7 @@ This project is a simple SQL practice project created to work with relational da
 
 The database is built using four related tables: customers, products, orders and order_items.
 
-Customers can create multiple orders, and each order can contain multiple products. The order_items table is used to connect orders and products.
+Customers can create multiple orders and each order can contain multiple products. The order_items table is used to connect orders and products.
 
 ## Database Structure
 
