@@ -4,7 +4,7 @@ USE sales_db;
 
 CREATE TABLE products (
     id INT PRIMARY KEY,
-    name VARCHAR(100),
+    product_name VARCHAR(100),
     category VARCHAR(50),
     price DECIMAL(10,2)
 );
